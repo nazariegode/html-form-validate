@@ -5,6 +5,10 @@
   margin-top: px;
 }
 
+.bg-red {
+  background-color: rgba(228, 136, 136, 0.299);
+}
+
 .container {
   padding: 40px;
   margin: auto;

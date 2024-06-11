@@ -18,74 +18,74 @@ form.addEventListener("submit", function(e) {
   e.preventDefault();
 
   if (card.value === "") {
-    card.classList.add("is-invalid");
+    card.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    card.classList.remove("is-invalid");
+    card.classList.remove("is-invalid", "bg-red");
   }
 
   if (cvc.value === "") {
-    cvc.classList.add("is-invalid");
+    cvc.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
-    cvc.classList.remove("is-invalid");
+    cvc.classList.remove("is-invalid", "bg-red");
     alerta.classList.add("d-none");
   }
 
   if (amount.value === "") {
-    amount.classList.add("is-invalid");
+    amount.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    amount.classList.remove("is-invalid");
+    amount.classList.remove("is-invalid", "bg-red");
   }
 
   if (name.value === "") {
-    name.classList.add("is-invalid");
+    name.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    name.classList.remove("is-invalid");
+    name.classList.remove("is-invalid", "bg-red");
   }
 
   if (lastn.value === "") {
-    lastn.classList.add("is-invalid");
+    lastn.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
-    lastn.classList.remove("is-invalid");
+    lastn.classList.remove("is-invalid", "bg-red");
     alerta.classList.add("d-none");
   }
 
   if (city.value === "") {
-    city.classList.add("is-invalid");
+    city.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    city.classList.remove("is-invalid");
+    city.classList.remove("is-invalid", "bg-red");
   }
 
   if (states.value === "") {
-    states.classList.add("is-invalid");
+    states.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    states.classList.remove("is-invalid");
+    states.classList.remove("is-invalid", "bg-red");
   }
 
   if (postal.value === "") {
-    postal.classList.add("is-invalid");
+    postal.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    postal.classList.remove("is-invalid");
+    postal.classList.remove("is-invalid", "bg-red");
   }
 
   if (textBox.value === "") {
-    textBox.classList.add("is-invalid");
+    textBox.classList.add("is-invalid", "bg-red");
     alerta.classList.remove("d-none");
   } else {
     alerta.classList.add("d-none");
-    textBox.classList.remove("is-invalid");
+    textBox.classList.remove("is-invalid", "bg-red");
   }
 });
